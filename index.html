@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Devforge</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <style>
+        .text-border {
+            -webkit-text-stroke: 1px black; /* Border thickness and color */
+            color: transparent; /* Optional: Makes the text fill transparent */
+        }
+    </style>
+</head>
+<body>
+    <nav class="flex bg-white justify-between items-center px-6 py-4">
+        <!-- Logo -->
+        <img src="" alt="Logo" class="h-8">
+
+        <!-- Navigation Menu -->
+        <div class="flex space-x-4 ">
+            <ul class="flex space-x-8 items-center">
+                <li class="relative cursor-pointer transition-all duration-200 group rounded-xl shadow-md py-1 px-4 border-black border hover:shadow-2xl"><search>Search</search></li>
+                <li class="cursor-pointer py-1 px-5 rounded-xl shadow-md border hover:shadow-2xl transition-all duration-200 ">Contact</li>
+                <li>
+                    <button class="px-5 py-1 bg-white text-black  rounded-xl  hover:shadow-2xl transition-all duration-200 hover:border-1 hover:border-[#8294E5]"><a href="#">Login</a></button>
+                </li>
+                <li>
+                    <button class="mx-px px-4 py-2 text-white bg-[#8294E5] rounded-xl border-1 border hover:shadow-2xl transition-all duration-200"><a href="#">SignUp</a></button>
+                </li>
+            </ul>
+        </div>
+    </nav>
+
+    <!-- second component -->
+     <div class="w-full h-[35vh] bg-[#8294E5] flex flex-col items-center justify-center" >
+        <p class="text-5xl text-white py-2 font-serif text-border ">
+            Connect Everything
+        </p>
+        <p class="text-5xl text-white py-2 font-serif text-border">
+            Build Anything
+        </p>
+     </div>
+
+
+
+     <!-- two byttons -->
+      <div class="flex py-6 items-center justify-center">
+
+        <button class="mx-7 px-4 py-2 text-white bg-[#8294E5] rounded-lg border-1 border hover:shadow-2xl transition-all duration-200">Deploy to DevForge</button>
+        <button class="mx-7 px-4 py-2 text-white bg-[#8294E5] rounded-lg border-1 border hover:shadow-2xl transition-all duration-200">Request Demo</button>
+
+      </div>
+
+      <!--  grid-->
+
+      <div class="flex relative w-85 ">
+        <!-- first card -->
+         <div class="border shadow-lg grid-rows-1 py-2 px-2 mx-5 rounded outline-offset-1	">
+            <h1>Deploy Faster</h1>
+            <p>DevForge Core is a frontend cloud solution for developers to build and deploy future-proof digital solutions with modern, composable tooling that works with all modern frameworks.</p>
+         </div>
+
+         <!-- second -->
+          <div class="border shadow-lg grid-rows-1 py-2 px-2 mx-5 rounded outline-offset-1">
+            <p>DevForge Core is a frontend cloud solution for developers to build and deploy future-proof digital solutions with modern, composable tooling that works with all modern frameworks.</p>
+
+          </div>
+
+          <!-- third -->
+           <div class="border shadow-lg grid-rows-1 py-2 px-2 mx-5 me-5 rounded outline-offset-1">
+            <p>DevForge Core is a frontend cloud solution for developers to build and deploy future-proof digital solutions with modern, composable tooling that works with all modern frameworks.</p>
+           </div>
+
+      </div>
+
+     
+
+</body>
+</html>
