@@ -1,9 +1,14 @@
 import React from "react";
+import Header from "../Common/Header";
+import Middle from "./Middle";
+import Grid from "./Grid";
 
 const Homepage = () => {
   return (
     <div>
-      <h1>This is home page</h1>
+      <Header/>
+      <Middle/>
+      <Grid/>
     </div>
   );
 };
