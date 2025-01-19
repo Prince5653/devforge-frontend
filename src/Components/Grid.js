@@ -21,7 +21,7 @@ function Grid() {
              <p class="py-1 px-2 font-mulish">DevForge Core is a frontend cloud solution for developers to build and deploy future-proof digital solutions with modern, composable tooling that works with all modern frameworks.</p>
            </div>
            <div>
-                <a href="#" class="underline font-mulish font-bold">Learn More About Core</a>
+                <a href="#" class="underline font-mulish font-bold py-2 px-2">Learn More About Core</a>
            </div>
          </div>
 
@@ -42,7 +42,7 @@ function Grid() {
               <p class="py-1 px-2 font-mulish">DevForge Core is a frontend cloud solution for developers to build and deploy future-proof digital solutions with modern, composable tooling that works with all modern frameworks.</p>
             </div>
             <div>
-                 <a href="#" class="underline font-mulish font-bold">Learn More About Core</a>
+                 <a href="#" class="underline font-mulish font-bold py-2 px-2">Learn More About Core</a>
             </div>
           </div>
 
@@ -65,7 +65,7 @@ function Grid() {
               <p class="py-1 px-2 font-mulish">DevForge Core is a frontend cloud solution for developers to build and deploy future-proof digital solutions with modern, composable tooling that works with all modern frameworks.</p>
             </div>
             <div>
-                 <a href="#" class="underline font-mulish font-bold">Learn More About Core</a>
+                 <a href="#" class="underline font-mulish font-bold py-2 px-2">Learn More About Core</a>
             </div>
           </div>
         </div>
