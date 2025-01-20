@@ -1,6 +1,7 @@
 import React from "react";
 import { Link } from "react-router-dom";
 import logo from "../Assets/devforge_logo.png";
+import searchLogo from "../Assets/search_image.jpg";
 
 const Header = () => {
   return (
@@ -10,9 +11,11 @@ const Header = () => {
 
         <div class="flex space-x-4 ">
           <ul class="flex space-x-8 items-center">
-            <li class="px-4 py-2 text-black  border-2 border-transparent rounded-lg  hover:border-blue-700 ">
-              <search>Search</search>
-            </li>
+          <li className="px-4 py-2 text-black border-2 border-transparent rounded-lg hover:border-blue-700">
+          <img src={searchLogo} alt="Search Logo" class="h-6 w-6"/>
+          </li>
+
+
             <li class="px-4 py-2 text-black  border-2 border-transparent rounded-lg   hover:border-blue-700  ">
               Contact
             </li>
