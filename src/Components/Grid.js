@@ -53,10 +53,10 @@ function Grid() {
             <div class="py-4">
                  <h2>
                      <span class="flex mx-2">
-                         <p class="py-1 px-2 rounded-xl bg-[#FDF5D8] text-[#603408]">Data Layer</p>
+                         <p class="py-1 px-2 rounded-xl bg-[#FDF5D8] text-[#603408]">Visual Editor</p>
                      </span>
                      <span class=" flex text-3xl mx-0.5">
-                        <h1 class="py-1 px-2">Visiul Editor</h1> 
+                        <h1 class="py-1 px-2">Click, edit, publish</h1> 
                      </span>
  
                  </h2>
@@ -69,7 +69,9 @@ function Grid() {
             </div>
           </div>
         </div>
+        <div class="h-[500px]"> </div>
     </div>
+  
   )
 }
 
