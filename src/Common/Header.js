@@ -10,14 +10,14 @@ const Header = () => {
 
         <div class="flex space-x-4 ">
           <ul class="flex space-x-8 items-center">
-            <li class="relative cursor-pointer transition-all duration-200 group rounded-xl shadow-md py-1 px-4 border-black border hover:shadow-2xl">
+            <li class="px-4 py-2 text-black  border-2 border-transparent rounded-lg  hover:border-blue-700 ">
               <search>Search</search>
             </li>
-            <li class="cursor-pointer py-1 px-5 rounded-xl shadow-md border hover:shadow-2xl transition-all duration-200 ">
+            <li class="px-4 py-2 text-black  border-2 border-transparent rounded-lg   hover:border-blue-700  ">
               Contact
             </li>
-            <li>
-              <button class="px-5 py-1 bg-white text-black  rounded-xl  hover:shadow-2xl transition-all duration-200 hover:border-1 hover:border-[#8294E5]">
+            <li className=" border-emerald-500">
+              <button class="px-4 py-2 text-black  border-2 border-transparent rounded-lg   hover:border-blue-700 ">
                 <Link to="/login">Login</Link>
               </button>
             </li>

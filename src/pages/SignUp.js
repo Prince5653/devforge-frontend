@@ -4,7 +4,7 @@ import { Link } from "react-router-dom";
 const SignUp = () => {
   return (
     <div className="flex items-center justify-center h-screen bg-gray-100">
-      <div className="bg-white p-6 shadow-lg rounded-lg w-96">
+      <div className="bg-white p-6 shadow-lg rounded-lg w-96 flex flex-col items-center ">
         <h2 className="text-2xl font-semibold text-center mb-4">Sign Up</h2>
         <form className="space-y-4">
           <div className="relative flex justify-center mb-4">
@@ -53,7 +53,7 @@ const SignUp = () => {
         <p className="text-center my-4 text-gray-500">OR</p>
         <Link
           to="/login"
-          className="w-full py-2 text-blue-600 border border-blue-600 rounded hover:bg-blue-50"
+          className="w-full py-2 text-center text-blue-600 border border-blue-600 rounded hover:bg-blue-50"
         >
           Login Instead
         </Link>
