@@ -1,7 +1,7 @@
 import React from "react";
 import { Link } from "react-router-dom";
 import logo from "../Assets/devforge_logo.png";
-import searchLogo from "../Assets/search_image.jpg";
+import searchLogo from "../Assets/magnifying-glass-solid.svg";
 
 const Header = () => {
   return (
