@@ -4,7 +4,7 @@ function Middle() {
   return (
     <div>
 
-        <div class="w-full h-[60vh] bg-[#8294E5] flex flex-col items-center justify-center " >
+        <div class="w-full h-[65vh] bg-[#8294E5] flex flex-col items-center justify-center " >
             <p class="text-5xl text-white py-2 font-serif text-border ">
                 Connect Everything
             </p>

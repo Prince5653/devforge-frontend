@@ -6,7 +6,7 @@ import logo from "../Assets/devforge_logo.png";
 const Header = () => {
   return (
     <div>
-        <nav class="flex  fixed w-full bg-white justify-between items-center px-6 bg-transparent bg-opacity-90 py-4">
+        <nav class="flex  fixed w-full bg-white justify-between items-center px-6 bg-transparent bg-opacity-95 py-4">
            <img src={logo} alt="Logo" class="h-10 py-1 px-2"/>
 
     
@@ -23,6 +23,7 @@ const Header = () => {
                 </ul>
             </div>
         </nav>
+        <div class="flex py-9"></div>
     </div>
   );
 };
