@@ -8,6 +8,7 @@ import RootLayout from "./Layout/RootLayout";
 const App = () => {
   return (
     <Router>
+      
       <Routes>
         <Route element={<RootLayout />}>
           <Route path="/" element={<Homepage />} />
