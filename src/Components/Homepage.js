@@ -6,10 +6,8 @@ import Grid from "./Grid";
 const Homepage = () => {
   return (
     <div>
-      
       <Middle />
       <Grid />
-      
     </div>
   );
 };
